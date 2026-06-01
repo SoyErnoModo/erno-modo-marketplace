@@ -1,0 +1,119 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "erno-modo-marketplace",
+  "description": "Skills and agents for Claude Code by Hernán De Souza · session memory, knowledge-base lint, topic roadmaps, bionic reading accessibility, team onboarding.",
+  "owner": {
+    "name": "Hernán De Souza",
+    "email": "hernan.desouza@modo.com.ar",
+    "url": "https://github.com/SoyErnoModo"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "homepage": "https://github.com/SoyErnoModo/erno-modo-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "session-recall",
+      "description": "Recover compressed context from past Claude Code sessions by topic/keyword. Mines ~/.claude/projects/<encoded>/*.jsonl, ranks by hits + recency, dedupes, drops synthetic turns, and emits a paste-ready context bundle. Includes a companion agent for cross-project synthesis.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/session-recall.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/session-recall",
+      "keywords": ["claude-code", "memory", "sessions", "recall", "context", "transcripts"]
+    },
+    {
+      "name": "session-recap",
+      "description": "Weekly cross-source recap for Claude Code users. Crosses GitHub PRs (open + closed) + git log + branches + session transcripts and classifies work as Done · In Progress · Stalled · Local · Abandoned.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/session-recap.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/session-recap",
+      "keywords": ["claude-code", "recap", "weekly", "github", "git", "productivity", "report"]
+    },
+    {
+      "name": "topic-roadmap",
+      "description": "Inventory cross-source work on a topic — PRs + openspec/SDD changes + docs/RFCs + branches + memories — into a 6-layer lifecycle roadmap (Idea → Discovery → Spec → Implementation → Review → Done) with Mermaid diagram + JSON inventory.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/topic-roadmap.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/topic-roadmap",
+      "keywords": ["claude-code", "roadmap", "topic", "mermaid", "github", "openspec", "sdd"]
+    },
+    {
+      "name": "distill-lint",
+      "description": "Read-only audit of a Claude Code knowledge base. Detects orphans, stale notes, dead refs, broken cross-references, index-budget violations. Inspired by Andrej Karpathy's LLM Wiki Pattern + Luhmann Zettelkasten. Complements `distill-learnings` (write side).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/distill-lint.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/distill-lint",
+      "keywords": ["claude-code", "knowledge-base", "lint", "zettelkasten", "karpathy", "memory"]
+    },
+    {
+      "name": "lectura-bionica",
+      "description": "Bionic-reading transformer for Markdown — bold the first half of each word ≥3 letters to create a visual anchor that reduces eye regressions. WCAG 2.2 AA accessibility (SC 1.4.8 + SC 1.4.12) for ADHD/dyslexia readers. Zero deps Python, 24 pytest cases.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "accessibility",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/lectura-bionica.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/lectura-bionica",
+      "keywords": ["claude-code", "accessibility", "bionic-reading", "adhd", "dyslexia", "wcag", "markdown"]
+    },
+    {
+      "name": "modo-team-onboarding",
+      "description": "PRIVATE · Generate a MODO-team Claude Code onboarding manual by mining 30d of local sessions plus CLAUDE.md / MEMORY.md / MCPs / skills / plugins / agents. Paranoid redact pass (17+ vendor secret patterns, env-style ALL_CAPS lookbehind, allowlist email + UUID + placeholders). Resolves only for users with access to the source repo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-team-onboarding.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-team-onboarding",
+      "keywords": ["claude-code", "onboarding", "modo", "team", "private", "redact", "security"],
+      "private": true
+    }
+  ]
+}
