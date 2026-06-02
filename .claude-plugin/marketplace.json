@@ -114,6 +114,24 @@
       "homepage": "https://github.com/SoyErnoModo/modo-team-onboarding",
       "keywords": ["claude-code", "onboarding", "modo", "team", "private", "redact", "security"],
       "private": true
+    },
+    {
+      "name": "pr-quality-review",
+      "description": "PRIVATE · Review a pull request against the MODO standard — title/metadata format, canonical sections (🎯 dolor / 🛠️ qué hicimos / 🎁 para qué), SonarCloud quality gate, code quality, architecture, SEO, accessibility, and rioplatense voice. Emits a prioritized, Slack-ready report. Sibling of modo-pr-author (which authors descriptions). Resolves only for users with access to the source repo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/pr-quality-review.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/pr-quality-review",
+      "keywords": ["claude-code", "pr-review", "code-review", "modo", "sonarcloud", "private", "slack"],
+      "private": true
     }
   ]
 }
