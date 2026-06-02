@@ -27,7 +27,14 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/session-recall",
-      "keywords": ["claude-code", "memory", "sessions", "recall", "context", "transcripts"]
+      "keywords": [
+        "claude-code",
+        "memory",
+        "sessions",
+        "recall",
+        "context",
+        "transcripts"
+      ]
     },
     {
       "name": "session-recap",
@@ -44,7 +51,15 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/session-recap",
-      "keywords": ["claude-code", "recap", "weekly", "github", "git", "productivity", "report"]
+      "keywords": [
+        "claude-code",
+        "recap",
+        "weekly",
+        "github",
+        "git",
+        "productivity",
+        "report"
+      ]
     },
     {
       "name": "topic-roadmap",
@@ -61,7 +76,15 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/topic-roadmap",
-      "keywords": ["claude-code", "roadmap", "topic", "mermaid", "github", "openspec", "sdd"]
+      "keywords": [
+        "claude-code",
+        "roadmap",
+        "topic",
+        "mermaid",
+        "github",
+        "openspec",
+        "sdd"
+      ]
     },
     {
       "name": "distill-lint",
@@ -78,7 +101,14 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/distill-lint",
-      "keywords": ["claude-code", "knowledge-base", "lint", "zettelkasten", "karpathy", "memory"]
+      "keywords": [
+        "claude-code",
+        "knowledge-base",
+        "lint",
+        "zettelkasten",
+        "karpathy",
+        "memory"
+      ]
     },
     {
       "name": "lectura-bionica",
@@ -95,7 +125,15 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/lectura-bionica",
-      "keywords": ["claude-code", "accessibility", "bionic-reading", "adhd", "dyslexia", "wcag", "markdown"]
+      "keywords": [
+        "claude-code",
+        "accessibility",
+        "bionic-reading",
+        "adhd",
+        "dyslexia",
+        "wcag",
+        "markdown"
+      ]
     },
     {
       "name": "modo-team-onboarding",
@@ -112,7 +150,15 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/modo-team-onboarding",
-      "keywords": ["claude-code", "onboarding", "modo", "team", "private", "redact", "security"],
+      "keywords": [
+        "claude-code",
+        "onboarding",
+        "modo",
+        "team",
+        "private",
+        "redact",
+        "security"
+      ],
       "private": true
     },
     {
@@ -130,7 +176,607 @@
         "ref": "main"
       },
       "homepage": "https://github.com/SoyErnoModo/pr-quality-review",
-      "keywords": ["claude-code", "pr-review", "code-review", "modo", "sonarcloud", "private", "slack"],
+      "keywords": [
+        "claude-code",
+        "pr-review",
+        "code-review",
+        "modo",
+        "sonarcloud",
+        "private",
+        "slack"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-deck",
+      "description": "PRIVATE · Armá presentaciones HTML branded MODO (verde #008859, Red Hat Display + Quicksand, logo solid green). Deck 16:9, navegación por teclado, exportable a PDF. Use cuando el usuario pida: 'armá un deck', 'make a deck', 'presentación MODO', 'slides MODO', 'ppt MODO', 'deck MODO', 'presentación para PM TL ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-deck.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-deck",
+      "keywords": [
+        "claude-code",
+        "deck",
+        "slides",
+        "presentation",
+        "modo",
+        "html",
+        "pdf"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-design-system",
+      "description": "PRIVATE · SDK/skill MODO-específico para generar páginas Next.js/Astro one-shot con el design system MODO (Quicksand + Red Hat Display, verde #008859, brand tokens canónicos). Auto-invocar cuando el usuario pida crear página/landing/feature en cualquier repo del workspace MODO (modo-landing, promos-hub-site, ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-design-system.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-design-system",
+      "keywords": [
+        "claude-code",
+        "design-system",
+        "nextjs",
+        "astro",
+        "tokens",
+        "modo",
+        "brand"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-tech-architect",
+      "description": "PRIVATE · ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-tech-architect.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-tech-architect",
+      "keywords": [
+        "claude-code",
+        "architecture",
+        "prd",
+        "specs",
+        "planning",
+        "modo",
+        "jira"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-code-review-checklist",
+      "description": "PRIVATE · Comprehensive code review checklist tailored to modo-landing patterns and standards. Auto-invoke on all code changes and PR reviews to ensure quality, security, and architectural consistency.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-code-review-checklist.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-code-review-checklist",
+      "keywords": [
+        "claude-code",
+        "code-review",
+        "checklist",
+        "quality",
+        "security",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-promos",
+      "description": "PRIVATE · Consultar promociones, bancos y comercios adheridos de MODO via el MCP `modo-promos-mcp`. Auto-invocar cuando el usuario pregunte por promos vigentes, slots, slugs, detalle de una promo, bancos asociados, o comercios adheridos en cualquier ambiente (develop/qa/preprod/prod). Tools disponibles bajo e",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-promos.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-promos",
+      "keywords": [
+        "claude-code",
+        "promos",
+        "mcp",
+        "modo",
+        "banks",
+        "merchants"
+      ],
+      "private": true
+    },
+    {
+      "name": "consultar-promos-modo",
+      "description": "PRIVATE · Responder consultas sobre promociones, comercios adheridos y bancos asociados de MODO usando el MCP `modo-promos`. Auto-invocar cuando el usuario haga preguntas tipo \"¿qué promos hay?\", \"¿cuáles son los descuentos de hoy?\", \"¿qué promos tiene Banco Galicia?\", \"¿qué comercios aceptan MODO?\", \"promoci",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/consultar-promos-modo.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/consultar-promos-modo",
+      "keywords": [
+        "claude-code",
+        "promos",
+        "modo",
+        "natural-language",
+        "mcp",
+        "cx"
+      ],
+      "private": true
+    },
+    {
+      "name": "simular-compra-agentica",
+      "description": "PRIVATE · Simular o ejecutar una compra agéntica end-to-end usando el POC `modo-checkout-skill` (server :3737 + UI Claude + SDK Container mock + demos HTML). Auto-invocar cuando el usuario pida correr/probar/demostrar el flow agentic (discovery → Intent Mandate → checkout → Cart Mandate → SPT → SDK deeplink →",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/simular-compra-agentica.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/simular-compra-agentica",
+      "keywords": [
+        "claude-code",
+        "agentic",
+        "checkout",
+        "acp",
+        "ap2",
+        "modo",
+        "poc"
+      ],
+      "private": true
+    },
+    {
+      "name": "agente-cx-whatsapp",
+      "description": "PRIVATE · Operar el agente CX/Promos de MODO por WhatsApp (OpenWA + Anthropic + Confluence + modo-promos + anti-bot). Auto-invocar cuando el usuario pida levantar, configurar, debuggear, registrar webhook, ver logs, desbloquear números, o entender la arquitectura del agente. Triggers (ES/EN) \"agente whatsapp\"",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/agente-cx-whatsapp.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/agente-cx-whatsapp",
+      "keywords": [
+        "claude-code",
+        "whatsapp",
+        "cx",
+        "agent",
+        "openwa",
+        "modo",
+        "promos"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-services-monitor",
+      "description": "PRIVATE · Service-status panel para MODO + ecosistema externo. Auto-invocable cuando el user pregunta \"cómo están los servicios\", \"están todos los servicios up\", \"status de servicios\", \"service status\", \"qué versión está en prod\", \"qué hay desplegado en preprod\", \"/services-status\", \"/motd-status\" o pide ver ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-services-monitor.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-services-monitor",
+      "keywords": [
+        "claude-code",
+        "status",
+        "monitor",
+        "services",
+        "modo",
+        "uptime",
+        "versions"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-planner",
+      "description": "PRIVATE · MODO Planning Framework (MPF). Orquesta planificación end-to-end para cualquier feature/change en MODO combinando brainstorming → discovery → SDD → Jira → swarm orchestration → verify → archive. Auto-invocable cuando el usuario dice (ES/EN) \"planificar X\", \"armar un plan\", \"necesito un plan\", \"organ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-planner.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-planner",
+      "keywords": [
+        "claude-code",
+        "planning",
+        "sdd",
+        "jira",
+        "rfc",
+        "prd",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-pr-author",
+      "description": "PRIVATE · Author MODO-grade pull request descriptions following the repo template + commit conventions + voz rioplatense. Auto-invocable cuando el usuario pide \"armá el PR\", \"creá el PR\", \"describí este PR\", \"iterá la descripción de este PR\" o cuando se va a llamar `gh pr create`/`gh pr edit` en un repo MODO.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-pr-author.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-pr-author",
+      "keywords": [
+        "claude-code",
+        "pr",
+        "github",
+        "modo",
+        "template",
+        "author",
+        "rioplatense"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-frontend-onboarding",
+      "description": "PRIVATE · Playbook end-to-end para llevar un frontend (SPA Vite/Lovable o app Next) a producción en la infra MODO (EKS + Istio) bajo el org playsistemico. Cubre migración a Next 16 server-rendered, subida limpia del código (squash sin secretos en history), apertura del ticket JSM a devops (preguntando el apro",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-frontend-onboarding.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-frontend-onboarding",
+      "keywords": [
+        "claude-code",
+        "frontend",
+        "onboarding",
+        "eks",
+        "istio",
+        "nextjs",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-seo-geo-audit",
+      "description": "PRIVATE · SEO/GEO/JSON-LD audit + fix workflow for MODO frontends (Vite SPAs, Next.js, Astro). Audits canonical signals, robots/sitemap/llms.txt, Open Graph, Schema.org JSON-LD against Google Rich Results, AI crawler accessibility, and URL-as-state for public filters (every filter/category/search/page must be",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-seo-geo-audit.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-seo-geo-audit",
+      "keywords": [
+        "claude-code",
+        "seo",
+        "geo",
+        "json-ld",
+        "schema",
+        "audit",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-storyblok",
+      "description": "PRIVATE · Orquestar contenido editorial en frontends MODO via Storyblok. Schemas + TS types + bloks renderer + dual-source con fallback al código + Management API push scripts + visual editor wiring. Reusable para cualquier content type MODO (cursos educativos, productos, promos, comercios, articles). Auto-in",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-storyblok.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-storyblok",
+      "keywords": [
+        "claude-code",
+        "storyblok",
+        "cms",
+        "content",
+        "modo",
+        "schema",
+        "editorial"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-stakeholder-gate",
+      "description": "PRIVATE · Gate de proceso MODO que valida comunicación + aprobación con el squad/tribu/chapter dueño de un feature ANTES de avanzar en un paso crítico (agregar tracking, tocar código de otro squad, cambiar infra compartida, feature flags). Modo \"pregunta y espera\": para, muestra el checklist de 3 fases (Ident",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-stakeholder-gate.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-stakeholder-gate",
+      "keywords": [
+        "claude-code",
+        "stakeholder",
+        "ownership",
+        "gate",
+        "squad",
+        "modo",
+        "process"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-jsm-ticket",
+      "description": "PRIVATE · Crear tickets en el Jira Service Management de MODO (https://play-sistemico.atlassian.net/servicedesk/customer/portals) de punta a punta — descubrir el portal correcto, mapear los campos requeridos y generar el ticket vía REST API. 29 service desks · 318 request types catalogados. Auto-invocable cua",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-jsm-ticket.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-jsm-ticket",
+      "keywords": [
+        "claude-code",
+        "jsm",
+        "jira",
+        "tickets",
+        "service-desk",
+        "modo",
+        "rest"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-landing-smoke-test",
+      "description": "PRIVATE · Smoke-testea modo-landing (modo.com.ar) por ambiente — valida rutas clave a nivel HTTP contra el edge live, compara prod vs preprod para cazar regresiones, y conoce qué versión está desplegada por env. Auto-invocable cuando el user diga \"smoke test de modo-landing\", \"probá preprod\", \"validá las feat",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-landing-smoke-test.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-landing-smoke-test",
+      "keywords": [
+        "claude-code",
+        "smoke-test",
+        "modo-landing",
+        "http",
+        "regression",
+        "deploy"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-contribution-evaluator",
+      "description": "PRIVATE · Evaluar contribuciones de Hernán (o cualquier dev) en el ecosistema MODO cruzando GitHub PRs (autor + reviewer) + Jira tickets (assignee + reporter) + repos del workspace. Produce inventario raw (JSONL/JSON), métricas (volumen, lifecycle, merge rate, throughput por quarter, dominios), narrative ejec",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-contribution-evaluator.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-contribution-evaluator",
+      "keywords": [
+        "claude-code",
+        "contributions",
+        "github",
+        "jira",
+        "metrics",
+        "report",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-ci-quality-harness",
+      "description": "PRIVATE · ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-ci-quality-harness.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-ci-quality-harness",
+      "keywords": [
+        "claude-code",
+        "ci",
+        "quality",
+        "harness",
+        "gates",
+        "modo",
+        "github-actions"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-research-article",
+      "description": "PRIVATE · Generate long-form HTML R&D articles for the erno-modo bitácora (https://soyernomodo.github.io/erno-modo/rd/) using the canonical research-article.css pattern (SVG diagrams theme-aware, Chart.js with CSS vars, matrix grid, gap columns, callouts, endpoint tables). Auto-invoke when the user says (ES/E",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-research-article.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-research-article",
+      "keywords": [
+        "claude-code",
+        "research",
+        "article",
+        "html",
+        "rd",
+        "modo",
+        "bitacora"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-postman-pack",
+      "description": "PRIVATE · Construir packs Postman extendidos para el workspace MODO cruzando Chrome history + Postman exports existentes + memoria del repo. Genera master environments por tier (QA/PREPROD/PROD), collections numeradas con carpetas \"Use case · …\" encadenadas, y mapea las 9 apps MODO conocidas. Auto-invocable c",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-postman-pack.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-postman-pack",
+      "keywords": [
+        "claude-code",
+        "postman",
+        "api",
+        "collections",
+        "environments",
+        "modo"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-plugin-builder",
+      "description": "PRIVATE · Construir plugins Claude Code para el ecosistema MODO siguiendo el patrón triple-layer (skill auto-invocable + agent worktree-delegable + slash commands explícitos) con symlink architecture para no duplicar skills. Auto-invocable cuando el user dice \"armá un plugin MODO\", \"convertí esta skill en plu",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-plugin-builder.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-plugin-builder",
+      "keywords": [
+        "claude-code",
+        "plugin",
+        "claude-code",
+        "triple-layer",
+        "modo",
+        "builder"
+      ],
+      "private": true
+    },
+    {
+      "name": "modo-nocturno",
+      "description": "PRIVATE · ",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hernán De Souza"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SoyErnoModo/modo-nocturno.git",
+        "path": ".",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/SoyErnoModo/modo-nocturno",
+      "keywords": [
+        "claude-code",
+        "nocturno",
+        "overnight",
+        "self-improve",
+        "queue",
+        "modo",
+        "read-only"
+      ],
       "private": true
     }
   ]
